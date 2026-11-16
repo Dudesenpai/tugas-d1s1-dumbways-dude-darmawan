@@ -38,11 +38,11 @@ body {
   color: var(--white);
 }
 
-.feature-card {
+.card {
   border: 1px solid #eeeeee;
   transition: transform 0.3s ease;
 }
 
-.feature-card:hover {
+.card:hover {
   transform: translateY(-5px);
 }
