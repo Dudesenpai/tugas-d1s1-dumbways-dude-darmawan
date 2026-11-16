@@ -1,0 +1,55 @@
+
+/* NESCAFE ICE ROAST THEME */
+
+:root {
+  --nescafe-red: #E31837;
+  --ice-blue: #008BCB;
+  --dark: #202124;
+  --white: #FFFFFF;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--dark);
+  background-color: var(--white);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--white);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+  color: var(--nescafe-red);
+  font-weight: 800;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--ice-blue);
+  color: var(--white);
+}
+
+/* Buttons */
+.btn-nescafe {
+  background-color: var(--nescafe-red);
+  color: var(--white);
+  border: none;
+  font-weight: bold;
+}
+
+.btn-nescafe:hover {
+  background-color: #B9132B;
+  color: var(--white);
+}
+
+/* Features */
+.feature-card {
+  border: 1px solid #eeeeee;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
